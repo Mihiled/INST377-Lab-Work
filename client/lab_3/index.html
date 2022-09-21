@@ -1,5 +1,53 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Harvey's Labs For INST377</title>
+    <meta name="description" content = "hello world">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class ="wrapper">
+      <header class = "header"><h1>Harvey's Labs For INST377</h1></header>
+        <div class ="container">
+          <div class = "left_section box">
+            <h2 class = "header">Album Names </h2>
+              <ol class = "box">
+                <li>TWICE - BETWEEN 1&2</li>
+                <li>Sik-K - 'H.A.L.F'</li>
+                <li>NCT DREAM - 'Glitch Mode'</li>
+                <li>SEVENTEEN - 'Face the Sun'</li>
+                <li>NCT 127 - Sticker</li>
+              </ol>
+            </div>
+
+          <div class ="container">
+          <div class = "right_section box">
+            <h2>Image Carousel</h2>
+            <div class = "carousel">
+                <button class = "prev">prev</button>
+                <div class = "slides">
+                    <div class = "carousel_item visible"><img id="slide_1" src="images/pommy1.png" alt ="Blue Merle Pomerian" /></div>
+                    <div class = "carousel_item hidden"><img id="slide_2" src="images/pommy2.jpg" alt ="Tan Pomeranian" /></div>
+                    <div class = "carousel_item hidden"><img id="slide_3" src="images/pommy3.jpg" alt ="Another Tan Pomeranian" /></div>
+                    <div class = "carousel_item hidden"><img id="slide_4" src="images/pommy4.png" alt ="White Pomeranian" /></div>
+                </div>
+                <button class = "next">next</button>
+            </div>
+
+            <div class = "box">
+              <p>Different types of Pomeranians </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+      <div class = "footer">
+        <p>Harvey Sombat
+          <a href='https://github.com/Mihiled'>My Github Account</a></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
